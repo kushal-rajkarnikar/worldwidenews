@@ -20,6 +20,15 @@ class News extends Component {
                     <img src={urlToImage} alt={title}/>                    
                 </figure>
 
+                <br/>
+
+                <div className="news-headlines">
+                    {title}
+                </div>
+                <div className="news-author">
+                    by {author}
+                </div>
+
                     <div className="news-text">
                         <div className="news-headlines">
                             {title}
