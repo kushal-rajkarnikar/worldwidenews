@@ -22,12 +22,12 @@ class News extends Component {
 
                 <br/>
 
-                <div className="news-headlines">
+                {/*<div className="news-headlines">
                     {title}
                 </div>
                 <div className="news-author">
                     by {author}
-                </div>
+                </div> */}
 
                     <div className="news-text">
                         <div className="news-headlines">
