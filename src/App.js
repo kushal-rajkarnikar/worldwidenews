@@ -6,7 +6,9 @@ import Newslist from './components/newslist';
 const API = 'https://newsapi.org/v2/';
 const KEY = '&apiKey=f0c7756f333948cf8fe88ae2896cc1f3'; 
 
-let DEFAULT_QUERY = 'top-headlines?q=world';
+let DEFAULT_QUERY = 'top-headlines?category=sports';
+
+let CATEGORY_QUERY = 'top-headlines?category=';
 
 class App extends Component {
 
@@ -14,7 +16,8 @@ class App extends Component {
     super(props);
 
     this.state = {
-      news: []
+      news: [],
+      category: ''
     }
   }
 

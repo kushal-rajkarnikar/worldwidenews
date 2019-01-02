@@ -680,3 +680,19 @@ span#tooltip-span {
     transform: rotate(450deg);
   }
 }
+
+.navigation{
+  list-style-type: none;
+  float: right;
+  margin-top: 30px;
+}
+
+.navigation li{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.navigation li a{
+  padding-left: 15px;
+  padding-right: 15px;
+}
